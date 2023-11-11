@@ -1,0 +1,17 @@
+@relation user
+@attribute I1{ t}
+@attribute I2{ t}
+@attribute I3{ t}
+@attribute I4{ t}
+@attribute I5{ t}
+@data
+t,t,?,?,t
+?,t,?,t,?
+?,t,t,t,?
+t,t,t,?,?
+t,t,t,?,t
+t,?,?,?,t
+?,t,?,t,?
+?,t,?,t,?
+t,?,t,t,?
+t,?,t,?,?

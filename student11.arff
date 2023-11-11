@@ -1,0 +1,12 @@
+@relation student11
+@attribute roll_no numeric
+@attribute name string
+@attribute phone_no numeric
+@attribute attendence numeric
+@attribute points numeric
+@attribute result{pass,fail}
+@data
+101,'rohini',11,98.2,8.6,pass
+102,'arun',7,94.3,7.5,fail
+103,'roy',511,98.2,8.6,pass
+104,'anu',507,94.3,7.5,pass

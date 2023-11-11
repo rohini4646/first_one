@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+      <meta charset="utf-8">
+      <title>Login and Registration Form in HTML | CodingNepal</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Student Login</h1>
+    </div>
+    
+    <div class="content">
+        <h2>Log in as a Student</h2>
+        <div class="form-container">
+            <form action="process_login.php" method="post">
+                <label for="student_id">Student ID:</label>
+                <input type="text" id="student_id" name="student_id" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
